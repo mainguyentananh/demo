@@ -57,7 +57,7 @@ public class NhanVienServiceImpl implements NhanVienService {
             return true;
         }
         String regexSdt = "\\d{10,11}";
-        String regexEmail = "^[A-Za-z0-9+_.-]+@(.+)$";
+        String regexEmail = "^[a-zA-Z0-9._%+-]+@gmail\\.com$";
         String regexNgaySinh = "^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/(\\d{4})$";
         if (!nhanVienDto.getEmail().trim().matches(regexEmail) || nhanVienDto.getLuong() < 0 || nhanVienDto.getEmail().length() > 255
                 || nhanVienDto.getTrangThai().length() > 255 || nhanVienDto.getQueQuan().length() > 255

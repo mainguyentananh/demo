@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   spring-boot-app:
     build:
@@ -9,7 +9,7 @@ services:
     depends_on:
       - mysql-db
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/demo?characterEncoding=UTF-8
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/demo?allowPublicKeyRetrieval=true&useSSL=false
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: tananh3420
   mysql-db:
@@ -17,5 +17,4 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: tananh3420
       MYSQL_DATABASE: demo
-      MYSQL_USER: tananh
-      MYSQL_PASSWORD: tananh3420
+      MYSQL_USER:

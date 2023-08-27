@@ -1,0 +1,533 @@
+{
+	"info": {
+		"_postman_id": "54a24890-8298-45cd-b201-51265a40986b",
+		"name": "Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14042807"
+	},
+	"item": [
+		{
+			"name": "PhongBan",
+			"item": [
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tenPhongBan\":\"Phòng Ban A2\",\r\n    \"chucNang\": \"Khám Bệnh A2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delelte",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAll Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tenPhongBan\":\"Phòng Ban A2\",\r\n    \"chucNang\": \"Khám Bệnh A2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tenPhongBan\":\"Phòng Ban A2 Update\",\r\n    \"chucNang\": \"Khám Bệnh A2 Update\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getDetail",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tenPhongBan\":\"Phòng Ban A2\",\r\n    \"chucNang\": \"Khám Bệnh A2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ChucVu",
+			"item": [
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tenPhongBan\":\"Phòng Ban A2\",\r\n    \"chucNang\": \"Khám Bệnh A2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAll Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tenPhongBan\":\"Phòng Ban A2\",\r\n    \"chucNang\": \"Khám Bệnh A2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tenPhongBan\":\"Phòng Ban A2 Update\",\r\n    \"chucNang\": \"Khám Bệnh A2 Update\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getDetail",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tenPhongBan\":\"Phòng Ban A2\",\r\n    \"chucNang\": \"Khám Bệnh A2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/phong-ban",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"phong-ban"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GiamDoc",
+			"item": [
+				{
+					"name": "upload",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/DELL/Desktop/BangLuongThang_08_2023.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/giam-doc/upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"giam-doc",
+								"upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "triggerJob",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/giam-doc/trigger",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"giam-doc",
+								"trigger"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "NhanVien",
+			"item": [
+				{
+					"name": "getAll",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hoVaTen\": \"Test 1237\",\r\n    \"ngaySinh\": \"01/01/2000\",\r\n    \"queQuan\":\"SG\",\r\n    \"sdt\":\"0123456788\",\r\n    \"email\":\"test2@gmail.com\",\r\n    \"phongBanId\": 1,\r\n    \"chucVuId\":1,\r\n    \"luong\":2,\r\n    \"trangThai\":\"Hoạt Động\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/nhan-vien",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nhan-vien"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getDetail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/nhan-vien/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nhan-vien",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/nhan-vien/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nhan-vien",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hoVaTen\": \"Tham Quyen 123A\",\r\n    \"ngaySinh\": \"05/05/2000\",\r\n    \"queQuan\":\"An\",\r\n    \"sdt\":\"01283647172\",\r\n    \"email\":\"test2@gmail.com\",\r\n    \"phongBanId\": 1,\r\n    \"chucVuId\":1,\r\n    \"luong\":200,\r\n    \"trangThai\":\"Nghỉ phép\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/nhan-vien",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nhan-vien"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hoVaTen\": \"Tham Quyen 124A Update\",\r\n    \"ngaySinh\": \"05/05/2000\",\r\n    \"queQuan\":\"An\",\r\n    \"sdt\":\"01283647172\",\r\n    \"email\":\"test2@gmail.com\",\r\n    \"phongBanId\": 1,\r\n    \"chucVuId\":1,\r\n    \"luong\":200,\r\n    \"trangThai\":\"Nghỉ phép\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/nhan-vien/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nhan-vien",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "fillter",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tuKhoa\":\"Tham Quyen\",\r\n    \"danhMuc\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/nhan-vien/tim-kiem",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"nhan-vien",
+								"tim-kiem"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
